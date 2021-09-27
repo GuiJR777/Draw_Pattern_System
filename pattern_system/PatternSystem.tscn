@@ -1,0 +1,292 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://pattern_system/resources/close.png" type="Texture" id=1]
+[ext_resource path="res://pattern_system/resources/fonts/roboto/Roboto-Regular.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://pattern_system/resources/Dot.png" type="Texture" id=3]
+[ext_resource path="res://scripts/PatternSystem.gd" type="Script" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 36
+font_data = ExtResource( 2 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 261.769, 230.403 )
+
+[node name="PatternSystem" type="Control"]
+margin_left = 8.98981
+margin_top = 11.9865
+margin_right = 8.98981
+margin_bottom = 11.9865
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="back" type="Polygon2D" parent="."]
+position = Vector2( 337.776, 161.568 )
+color = Color( 0, 0, 0, 0.705882 )
+polygon = PoolVector2Array( -1364.85, -786.78, 1763.39, -786.78, 1769.05, 1125.24, -1376.16, 1164.83 )
+
+[node name="Message" type="Label" parent="."]
+margin_left = 278.393
+margin_top = 41.4758
+margin_right = 998.393
+margin_bottom = 84.4758
+custom_fonts/font = SubResource( 1 )
+text = "hqethyrewghqr"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Lines" type="Control" parent="."]
+margin_left = 527.658
+margin_top = 215.637
+margin_right = 556.658
+margin_bottom = 253.637
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="AB" type="Line2D" parent="Lines"]
+visible = false
+points = PoolVector2Array( 8.74237, 37.9036, 108.855, 37.9036 )
+width = 25.0
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="BC" type="Line2D" parent="Lines"]
+visible = false
+position = Vector2( 100.113, -1.33484 )
+points = PoolVector2Array( 8.74237, 37.9036, 108.855, 37.9036 )
+width = 25.0
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="DE" type="Line2D" parent="Lines"]
+visible = false
+position = Vector2( 2.66968, 98.7781 )
+points = PoolVector2Array( 8.74237, 37.9036, 108.855, 37.9036 )
+width = 25.0
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="EF" type="Line2D" parent="Lines"]
+visible = false
+position = Vector2( 102.783, 100.113 )
+points = PoolVector2Array( 8.74237, 37.9036, 108.855, 37.9036 )
+width = 25.0
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="GH" type="Line2D" parent="Lines"]
+visible = false
+position = Vector2( 1.33484, 197.556 )
+points = PoolVector2Array( 8.74237, 37.9036, 108.855, 37.9036 )
+width = 25.0
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="HI" type="Line2D" parent="Lines"]
+visible = false
+position = Vector2( 108.122, 197.556 )
+points = PoolVector2Array( 8.74237, 37.9036, 108.855, 37.9036 )
+width = 25.0
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="AD" type="Line2D" parent="Lines"]
+visible = false
+points = PoolVector2Array( 11.412, 39.2385, 10.0772, 138.017 )
+width = 25.0
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="BE" type="Line2D" parent="Lines"]
+visible = false
+position = Vector2( 97.4433, 0 )
+points = PoolVector2Array( 11.412, 39.2385, 10.0772, 138.017 )
+width = 25.0
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="CF" type="Line2D" parent="Lines"]
+visible = false
+position = Vector2( 198.891, 0 )
+points = PoolVector2Array( 11.412, 39.2385, 10.0772, 138.017 )
+width = 25.0
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="DG" type="Line2D" parent="Lines"]
+visible = false
+position = Vector2( -1.33484, 98.7782 )
+points = PoolVector2Array( 11.412, 39.2385, 10.0772, 138.017 )
+width = 25.0
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="EH" type="Line2D" parent="Lines"]
+visible = false
+position = Vector2( 98.7781, 96.1085 )
+points = PoolVector2Array( 11.412, 39.2385, 10.0772, 138.017 )
+width = 25.0
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="FI" type="Line2D" parent="Lines"]
+visible = false
+position = Vector2( 198.891, 98.7782 )
+points = PoolVector2Array( 11.412, 39.2385, 10.0772, 138.017 )
+width = 25.0
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="AE" type="Line2D" parent="Lines"]
+visible = false
+points = PoolVector2Array( 10.0772, 37.9036, 110.19, 139.351 )
+width = 25.0
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="EI" type="Line2D" parent="Lines"]
+visible = false
+position = Vector2( 100.113, 100.113 )
+points = PoolVector2Array( 10.0772, 37.9036, 110.19, 139.351 )
+width = 25.0
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="BF" type="Line2D" parent="Lines"]
+visible = false
+position = Vector2( 99.113, -0.665131 )
+points = PoolVector2Array( 10.0772, 37.9036, 110.19, 139.351 )
+width = 25.0
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="DH" type="Line2D" parent="Lines"]
+visible = false
+position = Vector2( -1.00006, 99.4478 )
+points = PoolVector2Array( 10.0772, 37.9036, 110.19, 139.351 )
+width = 25.0
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="CE" type="Line2D" parent="Lines"]
+visible = false
+points = PoolVector2Array( 208.968, 39.2385, 110.19, 135.347 )
+width = 25.0
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="EG" type="Line2D" parent="Lines"]
+visible = false
+position = Vector2( -101.448, 100.113 )
+points = PoolVector2Array( 208.968, 39.2385, 110.19, 135.347 )
+width = 25.0
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="BD" type="Line2D" parent="Lines"]
+visible = false
+position = Vector2( -98.7782, -1.33484 )
+points = PoolVector2Array( 208.968, 39.2385, 110.19, 135.347 )
+width = 25.0
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="FH" type="Line2D" parent="Lines"]
+visible = false
+position = Vector2( 0.00445557, 100.778 )
+points = PoolVector2Array( 208.968, 39.2385, 110.19, 135.347 )
+width = 25.0
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="PatternArea" type="Area2D" parent="."]
+position = Vector2( 644.298, 353.154 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PatternArea"]
+shape = SubResource( 2 )
+
+[node name="GridContainer" type="GridContainer" parent="PatternArea"]
+margin_left = -146.554
+margin_top = -146.219
+margin_right = -88.5543
+margin_bottom = -88.2187
+rect_scale = Vector2( 5, 5 )
+custom_constants/vseparation = 5
+custom_constants/hseparation = 5
+columns = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="dot1" type="TextureButton" parent="PatternArea/GridContainer"]
+margin_right = 16.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 3 )
+
+[node name="dot2" type="TextureButton" parent="PatternArea/GridContainer"]
+margin_left = 21.0
+margin_right = 37.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 3 )
+
+[node name="dot3" type="TextureButton" parent="PatternArea/GridContainer"]
+margin_left = 42.0
+margin_right = 58.0
+margin_bottom = 16.0
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 3 )
+
+[node name="dot4" type="TextureButton" parent="PatternArea/GridContainer"]
+margin_top = 21.0
+margin_right = 16.0
+margin_bottom = 37.0
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 3 )
+
+[node name="dot5" type="TextureButton" parent="PatternArea/GridContainer"]
+margin_left = 21.0
+margin_top = 21.0
+margin_right = 37.0
+margin_bottom = 37.0
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 3 )
+
+[node name="dot6" type="TextureButton" parent="PatternArea/GridContainer"]
+margin_left = 42.0
+margin_top = 21.0
+margin_right = 58.0
+margin_bottom = 37.0
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 3 )
+
+[node name="dot7" type="TextureButton" parent="PatternArea/GridContainer"]
+margin_top = 42.0
+margin_right = 16.0
+margin_bottom = 58.0
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 3 )
+
+[node name="dot8" type="TextureButton" parent="PatternArea/GridContainer"]
+margin_left = 21.0
+margin_top = 42.0
+margin_right = 37.0
+margin_bottom = 58.0
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 3 )
+
+[node name="dot9" type="TextureButton" parent="PatternArea/GridContainer"]
+margin_left = 42.0
+margin_top = 42.0
+margin_right = 58.0
+margin_bottom = 58.0
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 3 )
+
+[node name="TextureButton" type="TextureButton" parent="."]
+margin_left = 1096.76
+margin_top = 35.9594
+margin_right = 1176.76
+margin_bottom = 115.959
+texture_normal = ExtResource( 1 )
+
+[connection signal="input_event" from="PatternArea" to="." method="_on_Area2D_input_event"]
+[connection signal="mouse_entered" from="PatternArea/GridContainer/dot1" to="." method="_on_dot1_mouse_entered"]
+[connection signal="mouse_entered" from="PatternArea/GridContainer/dot2" to="." method="_on_dot2_mouse_entered"]
+[connection signal="mouse_entered" from="PatternArea/GridContainer/dot3" to="." method="_on_dot3_mouse_entered"]
+[connection signal="mouse_entered" from="PatternArea/GridContainer/dot4" to="." method="_on_dot4_mouse_entered"]
+[connection signal="mouse_entered" from="PatternArea/GridContainer/dot5" to="." method="_on_dot5_mouse_entered"]
+[connection signal="mouse_entered" from="PatternArea/GridContainer/dot6" to="." method="_on_dot6_mouse_entered"]
+[connection signal="mouse_entered" from="PatternArea/GridContainer/dot7" to="." method="_on_dot7_mouse_entered"]
+[connection signal="mouse_entered" from="PatternArea/GridContainer/dot8" to="." method="_on_dot8_mouse_entered"]
+[connection signal="mouse_entered" from="PatternArea/GridContainer/dot9" to="." method="_on_dot9_mouse_entered"]
+[connection signal="pressed" from="TextureButton" to="." method="_on_TextureButton_pressed"]
